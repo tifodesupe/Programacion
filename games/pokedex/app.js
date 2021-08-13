@@ -6,15 +6,21 @@ document.addEventListener('DOMContentLoaded', async () =>  {
   
   const datos = await request.json();
 
-  for(let i = 0;i < datos.results.length;i++){
+  for(let i = 0;i < datos.results.length; i++){
     const poke = datos.results[i]
     console.log(poke)
-    const pokediv = document.createElement('a');
-    pokediv.href = poke.url
+    const pokediv = document.createElement('div');
+    pokediv.onclick = async () => {
+      const pokeRequest =  await fetch(poke.url)
+      const pokeDatos = await pokeRequest.json();
+      console.log(pokeDatos)
+    }
     pokediv.classList.add("pokemon")
     pokediv.innerHTML = poke.name
     results.appendChild(pokediv)
   }
 
   console.log("hola");
+
+
 })
