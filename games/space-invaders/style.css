@@ -1,0 +1,45 @@
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 300px;
+  height: 300px;
+}
+
+.grid div{
+  width: 20px;
+  height: 20px;
+}
+
+.nave{
+  background-color:darkgreen;
+  border-radius: 10px 0;
+  transform: rotate(-45deg);
+}
+.invader{
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.boom{
+  background-color: tomato;
+}
+.laser{
+  background-color: goldenrod;
+}
+
+.botones{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.boton{
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}

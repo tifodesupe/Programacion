@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dibujando con canvas</title>
+  </head>
+  <body>
+    <h1>Dibujo en canvas</h1>
+    <form id="formulario">
+    <p>
+    Hola mati ¡Vamos a dibujar! <br />
+    <strong>¿Cuántas líneas quieres?<br /></strong>
+    </p>
+    <p>
+    <input type="text" id="txt_lineasIzquierdo" value="" />
+    <input type="color" id="color1_s">
+    <input type="button" id="dibujoIzquierdo" value="Dibujar" />
+    Borde Izquierdo<br />
+    <input type="text" id="txt_lineasInferior" value="" />
+    <input type="color" id="color2_s">
+    <input type="button" id="dibujoInferior" value="Dibujar" />
+    Borde Inferior<br />
+    <input type="text" id="txt_lineasDerecho" value="" />
+    <input type="color" id="color3_s">
+    <input type="button" id="dibujoDerecho" value="Dibujar"  />
+    Borde Derecho<br />
+    <input type="text" id="txt_lineasSuperior" value="" />
+    <input type="color" id="color4_s">
+    <input type="button" id="dibujoSuperior" value="Dibujar" />
+    Borde Superior
+    </p>
+    <p>
+    <input type="button" id="LimpiarLineas" value="Limpiar Lineas" />
+    <button onClick="Limpiartodo">Limpiar todo</button>
+    </p>
+    </form>
+    <canvas id="dibujito" width="300" height="300"></canvas>
+    <p>Así queda tu dibujo</p>
+    <script src="divujoss.js">
+    </script>
+  </body>
+</html>

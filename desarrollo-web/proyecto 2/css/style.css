@@ -1,0 +1,127 @@
+/*variables*/
+:root{
+  --primario: #9C27B0;
+  --primariOscuro:#89119D;
+  --secundario: #FFCE00;
+  --secundariOscuro: rgb(233,287,2);
+  --blanco: #fff;
+  --negro: #000;
+
+  --fuentePrincipal: 'Staatliches', cursive;
+}
+
+/*global*/
+
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: var(--primario);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+p{
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--blanco);
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.contenedor{
+  width: 120rem;
+  margin: 0 auto;
+}
+
+h1, h2 ,h3{
+  text-align: center;
+  color: var(--secundario);
+  font-family: var(--fuentePrincipal);
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3.2rem;
+}
+
+h3{
+  font-size: 2.3rem;
+}
+
+/** heder**/
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo{
+  margin: 2rem;
+}
+
+/* nav*/
+.nav{
+  background-color: var(--primariOscuro);
+  padding: 1rem .5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav__a{
+  font-family: var(--fuentePrincipal);
+  font-size: 3rem;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: var(--blanco);
+}
+.nav__a--activo,  
+.nav__a:hover{
+  color: var(--secundario);
+}
+
+/*productos*/
+
+.producto{
+
+}
+.producto__img{
+
+}
+.producto__informacion{
+
+}
+.producto__nombre{
+
+}
+.producto__precio{
+  
+}
+/*footer*/
+
+.footer{
+  background-color: var(--primariOscuro);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer__p{
+  text-align: center;
+  font-family: var(--fuentePrincipal);
+  font-size: 2.2rem;
+}

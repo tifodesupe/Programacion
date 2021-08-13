@@ -1,0 +1,51 @@
+.grid div{
+  background-color:bisque;
+  width: 20px;
+  height: 20px;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.game{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+} 
+
+
+.preview-grid{
+  width: 80px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.preview-grid div{
+  background-color:bisque;
+  width: 20px;
+  height: 20px;
+}
+
+.block{
+  background-color: green !important;
+}
+
+.piso {
+  background-color: black !important;
+}
+
+.grid div.block2{
+  background-color: purple;
+}
+.botones {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.botones.centrado {
+  justify-content: center;
+}

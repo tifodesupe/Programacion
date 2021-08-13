@@ -1,0 +1,58 @@
+.grid{
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  height: 360px;
+  width: 360px;
+}
+
+.grid div{
+  height: 40px;
+  width: 40px;
+}
+
+.meta{
+  background-color: red;
+}
+
+.frog{
+  background-image: url("rana.png");
+}
+.inicio{
+  background-color: blue;
+}
+
+.c1.carro-de{
+  background-color: grey;
+  background-image: url("carro-rojo.png");
+}
+
+
+.c1.carro-iz{
+  background-color: grey;
+  background-image: url("carro-amarillo.png");
+}
+.c2, .c3 {
+  background-color: grey;
+}
+
+.l1, .l2, .l3{
+  background-color: brown;
+}
+
+.l4, .l5{
+  background-color: rgb(0, 233, 233);
+}
+
+.oculto{
+  display: none;
+}
+
+.botones {
+  display: flex;
+  width: 360px;
+  justify-content: space-between;
+}
+.botones.centrado {
+  justify-content: center;
+}

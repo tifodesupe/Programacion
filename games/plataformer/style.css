@@ -1,0 +1,16 @@
+/*globales*/
+
+h1,h2,h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+/**titulo**/
+
+.header__h1{
+  font-family: "Krub", sans-serif;
+}
+
+.header{
+  background-color: darkgrey;
+}
