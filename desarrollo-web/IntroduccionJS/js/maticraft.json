@@ -1,0 +1,29 @@
+{
+    "club maticaft": [
+        {
+            "id":1,
+            "nombre": "matias",
+            "puesto": "el que lo creo"
+        },
+        {
+            "id":2,
+            "nombre": "jonatan",
+            "puesto": "mi amigo"
+        },
+        {
+            "id":3,
+            "nombre": "predro",
+            "puesto": "niño"
+        },
+        {
+            "id":4,
+            "nombre": "jou",
+            "puesto": "otro niño"
+        },
+        {
+            "id":"5 --- ????",
+            "nombre": "el resto",
+            "puesto": "amigos y otros niños"
+        }
+    ]
+}

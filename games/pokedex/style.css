@@ -19,11 +19,16 @@ body{
   margin: 0;
   font-size: 4rem;
   color: aliceblue;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 header{
   background-color:red;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .div{
@@ -50,12 +55,44 @@ header{
   margin: 1rem;
 }
 .boton{
+  box-shadow: 0px 5px 15px 0px black;
+  padding: 1rem;
+  border-radius: .7rem;
+  border-color: black ;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+
+.a-boton{
   box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.54);
   padding: 1rem;
   border-radius: .7rem;
   margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  background-color: #eee;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.5rem;
 }
 
+
+/*botones*/
+.botones{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+#boton1,#boton2{
+  border-radius: 3rem;
+  box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.54);
+  cursor: pointer;
+}
 /*poke*/
 
 .resultado{
@@ -75,7 +112,31 @@ header{
   color: black;
   font-size: 3rem;
   text-transform: capitalize;
+  text-align: center;
 }
 .pokemon:hover{
   color: gray;
+  cursor: pointer;
+} 
+
+/**!--- ¿QUIEN ES ESE POKÉMON?  ---!**/
+
+.h2{
+  text-align: center;
+  font-family: 'Georama', sans-serif;
+  margin: 1rem;
+  font-size: 2.5rem;  
+  line-height: 3rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+}
+.h3{
+  text-align: center;
+  font-family: 'Georama', sans-serif;
+  margin: 0;
+  font-size: 2rem;  
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
 }
