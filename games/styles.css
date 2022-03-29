@@ -1,5 +1,14 @@
+body{
+  font-family: 'Indie Flower', cursive;
+}
 .img{
   width: 200px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a{
@@ -13,4 +22,40 @@ a{
 a:hover{
   color: blue;
   background-color: orangered;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+} 
+
+.titulo{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: 'Permanent Marker', cursive;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem 0;
+  border: 3px solid #000;
+}
+@media (max-width: 768px){
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 425px){
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.centrado{
+  text-align: center;
 }
