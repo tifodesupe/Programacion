@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400;700&display=swap" rel="stylesheet">
+  <title>tic tac toe</title>
+</head>
+<body class="no-margin body">
+  <header class="header no-margin">
+    <h1 class="header__h1 texto-centrado no-margin">tic tac toe</h1>
+  </header>
+  <form action="juego.php" method="post">
+    <input type="hidden" name="accion" id="accion">
+    <h2 class="texto-centrado">ingresa tu nombre</h2>
+    <div class="nombre">
+      <input type="text" name="nombre" placeholder="Tu nombre" id="nombre">
+    </div>
+    <h2 class="texto-centrado">Unirse a una sala</h2>
+    <div class="nombre">
+      <input type="text" name="id-sala" placeholder="Pon una id" id="id-sala">
+      <button type="submit" name="unirse">Unirse</button>
+    </div>
+    <h2 class="texto-centrado">Crear una sala</h2>
+    <div class="nombre">
+      <button type="submit" name="crear-id">Crear</button>
+    </div>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>

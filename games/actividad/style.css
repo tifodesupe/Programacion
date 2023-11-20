@@ -1,0 +1,19 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    transition: color .7s ease;
+    color: rgb(255, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.h1:hover{
+    color: yellow;
+}
+
+.p{
+    font-family: 'Nabla', cursive;
+}

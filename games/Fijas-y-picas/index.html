@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+
+    <title>Fijas y picas</title>
+</head>
+<body>
+    <div class="contenido_flexbox">
+        <div class="las_reglas">
+            <h1>Las reglas de Fijas y Picas</h1>
+            <p>
+                Picas y fijas es un juego en el que se debe adivinar un número de 4 cifras generado aleatoriamente por el sistema, el número no empieza en cero ni tampoco tiene cifras repetidas.
+            </p>
+            <p>
+                Al ingresar un número, este se compara con el número que hay que adivinar y se daran algunas pistas llamadas: picas y/o fijas.
+            </p>
+            <ul>
+                <li>
+                    Una fija significa que uno de los digitos del número que ingresaste es igual al de la posición correspondiente del número que debes adivinar.
+                </li>
+                <li>
+                    Una pica significa que uno de los digitos del número que ingresaste está en el número que hay que adivinar pero no está en la posición correcta.
+                </li>
+                
+            </ol>
+        </div>
+        <div class="contenido">
+            <header class="header">
+                <H1 class="texto-centrado">Fijas y picas</H1>
+            </header>
+            <h2 class="texto-centrado">Vas <span id="intentos">0</span> intentos</h2>
+            <h2 class="texto-centrado">Vas <span id="tiempo">0</span> segundos</h2>
+            <div class="numero">
+                <form id="formulario">
+                    <input placeholder="Ingresa tu número aquí" type="number" id="numeroUsuario">
+                    <button type="submit" id="boton">Probar número</button>
+                    <button type="button" id="boton-reiniciar" class="oculto">Reiniciar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

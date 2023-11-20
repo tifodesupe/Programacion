@@ -1,0 +1,106 @@
+  :root{
+    --fuente-principal: 'Gluten', cursive;
+  }
+  
+  
+  .header{
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .no-margin{
+    margin: 0;
+  }
+  .no-pading{
+    padding: 0;
+  }
+  
+  .header__h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--fuente-principal);
+    font-weight: 700;
+  }
+  
+  .texto-centrado{
+    text-align: center;
+  }
+  h2{
+    text-transform: capitalize;
+    font-family: var(--fuente-principal);
+    font-weight: 400;
+  }
+  h3{
+    font-family: var(--fuente-principal);
+    font-weight: 400;
+  }
+  .nombre{
+    display: flex;
+    justify-content: center;
+  }
+  .body{
+    background-image: url("../img/triqui.png");
+    opacity: 1;
+    color: white;
+    background-color: black;
+  } 
+  
+  
+  /* triqui */
+  
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #000;
+    width: 30rem;
+    margin: 0 auto;
+  }
+  
+  .grid div{
+    height: 10rem;
+    background-size: contain;
+  }
+  
+  #uno {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+  
+  #dos {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+  
+  #tres {
+    border-bottom: 2px solid white;
+  }
+  
+  #cuatro {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+  
+  #cinco {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+  
+  #seis {
+    border-bottom: 2px solid white;
+  }
+  
+  #siete {
+    border-right: 2px solid white;
+  }
+  
+  #ocho {
+    border-right: 2px solid white;
+  }
+  
+  .x{
+    background-image: url("../img/x.png");
+  }
+  .o{
+    background-image: url("../img/o.png");
+  }

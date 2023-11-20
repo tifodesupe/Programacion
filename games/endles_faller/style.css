@@ -1,0 +1,25 @@
+.casillas{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+  
+.casillas div{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+.jugador{
+    background-image: url("player.png");
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.enemigo{
+    background-image: url("enemigo.png");
+     max-width: 100%;
+    max-height: 100%;
+}

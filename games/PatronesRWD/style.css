@@ -1,0 +1,15 @@
+.a{
+  text-decoration: none;
+  margin: 10px;
+  font-size: 30px;
+}
+
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "\1F4C2" "\1F4C1";
+  suffix: " ";
+}
+
+li {
+  list-style-type: repeating-emoji;
+}

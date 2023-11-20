@@ -1,0 +1,72 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    overscroll-behavior: none;
+}
+h1{
+    text-align: center;
+}
+.grid_principal{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+}
+.grid_principal div{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.number2{
+    background-color: whitesmoke;
+}
+.number4{
+    background-color: wheat;
+}
+.number8{
+    background-color: rgb(255, 155, 88);
+    color: wheat;
+}
+.number16{
+    background-color: rgb(255, 166, 0);
+    color: wheat;
+}
+.number32{
+    background-color: rgb(200, 81, 81);
+    color: wheat;
+}
+.number64{
+    background-color: rgb(255, 0, 0);
+    color: wheat;
+}
+.number128{
+    background-color: rgb(255, 255, 98);
+    color: white;
+}
+.number256{
+    background-color: rgb(255, 255, 34);
+    color: white;
+}
+.number512{
+    background-color: rgb(226, 197, 66);
+    color: white;
+}
+.number1024{
+    background-color: rgb(189, 189, 29);
+    color: white;
+}
+.number2048{
+    background-color: rgb(128, 128, 23);
+    color: white;
+}
+.centrado{
+    width: 400px;
+    margin: 0 auto;
+}

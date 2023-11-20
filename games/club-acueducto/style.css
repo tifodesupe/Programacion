@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+
+.logo-acueducto{
+    width: 100px;
+    height: 100px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.header{
+    /*background-color: #90ba43;*/
+    background-color: #ed1b24;
+
+    color: white;
+    margin: 0;
+    padding: 1rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+h1{
+    margin: 0;
+    margin: 20px;
+}
+
+main{
+   /* background-color: #ed1b24;*/
+    
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+
+.flex{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+main p{
+    margin: 0 auto;
+}
+
+.texto-flex{
+    width: 100%;
+  
+}
+
+.imagen-flex img{
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+.contenido-footer{
+    background-color: #90ba43;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.copyright{
+    margin: 0;
+    background-color: #418c3e;
+    padding: 1rem;
+    color: #dddddd;
+}
+
+.copyright p{
+    margin: 0;
+}
+.disenador{
+    font-size: small;
+}
+
+.logo-acueducto-footer{
+    width: 70px;
+    height: 70px;
+}
+
+@media  (min-width: 500px){
+    main{
+        width: 480px;
+    }
+}
+
+@media  (min-width: 768px){
+    main{
+        width: 720px;
+    }
+    .flex{
+        display: flex;
+    }
+    .imagen-flex img{
+        margin: 2rem;
+    }
+}
+
+@media  (min-width: 1200px){
+    main{
+       width: 1024px;
+    }
+}
+
+footer .flex img{
+    margin: 0 1rem;
+}
+
+footer h2{
+    margin: 1rem;
+}
+
+main a{
+    text-decoration: none;
+}
+.redes{
+    width: 10%;
+    height: 10%;
+}
+
+
+.galeria {
+    max-width: 100%;
+    padding: 5rem 0;
+}
+.galeria h2 {
+    text-align: center;
+}
+  
+.galeria-imagenes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 100%;
+}
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay picture {
+    display: block;
+    max-width: 100%;
+}
+  
+.btn-cerrar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #000000;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+}
+  
+.btn-cerrar:hover {
+    cursor: pointer;
+}
+
+.galeria img{
+    height: 300px;
+    width: 300px;
+}
+
+.img-grande{
+    max-width: 80%;
+    margin: 0 auto;
+}
+@media (min-width: 768px){
+    .img-grande{
+        max-width: 50%;
+    }
+}
+
+.picture-overlay{
+    padding-top: 3rem;
+}
+
+picture{
+    text-align: center;
+}
+
+picture img{
+    object-fit: cover;
+}

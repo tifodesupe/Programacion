@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/tailwind.css">
+  <title>🎲 Lanzador de dados 🎲</title>
+</head>
+<body class="bg-purple-700 text-yellow-400">
+  <h1 class="text-4xl text-center m-2">
+    🎲 Lanzador de dados 🎲
+  </h1>
+  <div class="w-full mx-auto container">
+    <div class="flex text-center w-full justify-center flex-wrap">
+      <h2 class="text-3xl w-full">Sacaste</h2>
+      <div id="resultado"  class="text-9xl border-2 w-44 m-4 rounded-2xl bg-black text-white">
+        -
+      </div>
+      <div class="flex w-full justify-around mt-3"> <!--Dados-->
+        <button  class="border-2 p-2 text-xl" id="no-historial">
+          Borrar historial
+        </button>
+        <button  class="dado border-2 p-2 text-xl" data-numeros="4">
+          D4
+        </button>
+        <button  class="dado border-2 p-2 text-xl" data-numeros="6">
+          D6
+        </button>
+        <button  class="dado border-2 p-2 text-xl" data-numeros="8">
+          D8
+        </button>
+        <button  class="dado border-2 p-2 text-xl" data-numeros="10">
+          D10
+        </button>
+        <button  class="dado border-2 p-2 text-xl" data-numeros="12">
+          D12
+        </button>
+        <button  class="dado border-2 p-2 text-xl" data-numeros="20">
+          D20
+        </button>
+      </div>
+    </div> <!--Fin dados-->
+    <div class="w-full my-4"><!--Historial-->
+      <table class="table-fixed w-full">
+        <thead>
+          <tr>
+            <th class="w-1/3 border">Hora</th>
+            <th class="w-1/3 border">Dado</th>
+            <th class="w-1/3 border">Número</th>
+          </tr>
+        </thead>
+        <tbody class="text-center" id="historial">
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="p-3 bg-yellow-400 text-center text-purple-700 mt-4">Matías Mongua. Todos los derechos reservados 2021 ©</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-color: green;
+}
+
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px auto;
+    width: 200px;
+    height: 200px;
+}
+.grid div{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+}
+
+.revelado{
+    background-color: darksalmon !important;
+}
+h1{
+    text-align: center;
+}
